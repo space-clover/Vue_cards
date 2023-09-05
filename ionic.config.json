@@ -1,0 +1,7 @@
+{
+  "name": "Vue_cards",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

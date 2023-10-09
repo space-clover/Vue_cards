@@ -38,7 +38,6 @@
     methods: {
       async fetchMemes() {
         try {
-          // Realiza una solicitud para obtener memes de Imgflip (debes tener una clave de API válida)
           const response = await axios.get('https://api.imgflip.com/get_memes');
           this.memes = response.data.data.memes;
         } catch (error) {
@@ -50,7 +49,6 @@
       },
     },
     created() {
-      // Llama a fetchMemes al cargar el componente
       this.fetchMemes();
     },
   };
@@ -64,7 +62,7 @@
   }
   
   ion-item {
-    flex: 0 0 calc(33.33% - 10px); /* Muestra 3 memes por fila */
+    flex: 0 0 calc(33.33% - 10px); 
     margin-bottom: 20px;
     box-sizing: border-box;
     text-align: center;

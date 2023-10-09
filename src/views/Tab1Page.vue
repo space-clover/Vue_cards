@@ -35,7 +35,15 @@
           <span>{{ result.status }}</span>
         </ion-label>
       </ion-item>
+      <ion-toolbar style="height: 100px;">
+        <ion-title>Jessica de los Angeles García</ion-title>
+      </ion-toolbar>
     </ion-content>
+    <ion-footer>
+      <ion-toolbar>
+        <ion-title>Jessica de los Angeles Garcíaa</ion-title>
+      </ion-toolbar>
+    </ion-footer>
   </ion-page>
 </template>
 
